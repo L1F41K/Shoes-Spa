@@ -4,300 +4,421 @@
 		<meta charset="UTF-8" />
 		<meta
 			name="viewport"
-			content="width=device-width, initial-scale=1.0,user-scalable=no"
+			content="width=device-width, initial-scale=1.0, user-scalable=no"
 		/>
+		<!-- Fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
 			rel="stylesheet"
 		/>
-		<link rel="stylesheet" href="assets/css/style.css" />
+		<!-- Fonts -->
+		<!-- Css -->
+		<link rel="stylesheet" href="/assets/css/styles.css" />
+		<!-- Css -->
 		<title>Shoes Spa</title>
 	</head>
 	<body>
 		<header>
 			<div class="header">
-				<a href="index.html"><div class="header-logo">Shoes Spa</div></a>
-				<div class="header-line">
-					<a href="#landing-page">Главная</a>
-					<a href="#services">Услуги и цены</a>
-					<a href="#before-after">Наши работы</a>
-					<a href="#">Доставка</a>
+				<div class="header-items">
+					<a href="#" class="header-item">Услуги</a>
+					<a href="#" class="header-item">Доставка</a>
+					<a href="#" class="header-item">Наши работы</a>
 				</div>
+				<div class="header-logo"><a href="index.html">SHOES SPA</a></div>
 				<div class="header-contacts">
-					<a href="#">+7 (123) 456-78-90</a>
-					<button href="#" class="header-contacts-button">
-						Заказать доставку
-					</button>
-				</div>
-				<!-- Мобильное меню -->
-				<div class="mobile-menu">
-					<input type="checkbox" id="burger-checkbox" class="burger-checkbox" />
-					<label for="burger-checkbox" class="burger"></label>
-					<ul class="mobile-menu-list">
-						<li><a href="#landing-page" class="menu-item">Главная</a></li>
-						<li><a href="#services" class="menu-item">Услуги и цены</a></li>
-						<li><a href="#before-after" class="menu-item">Наши работы</a></li>
-						<li><a href="#" class="menu-item">Доставка</a></li>
-						<li><a href="#" class="menu-item">+7 (123) 456-78-90</a></li>
-						<li>
-							<a href="#" class="menu-item mobile-button">Заказать доставку</a>
-						</li>
-					</ul>
-					<div class="menu-overlay"></div>
+					<div class="header-phone">
+						<i class="fa-solid fa-phone-volume"></i>
+						<a href="tel:+7 (123) 456-78-90">+7 (123) 456-78-90</a>
+					</div>
+					<div class="header-time">
+						<i class="fa-solid fa-clock"></i>
+						<p>11:00 - 20:00 ежедневно</p>
+					</div>
+					<div class="header-icons">
+						<a href="#"
+							><img src="assets/svg/whatsapp_pft0962qticd.svg" alt=""
+						/></a>
+						<a href="#"
+							><img src="assets/svg/telegram_1e4i1v42i3rw.svg" alt=""
+						/></a>
+					</div>
 				</div>
 			</div>
 		</header>
 		<main>
-			<section class="landing-page" id="landing-page">
-				<div class="landing-page-background">
-					<img
-						src="assets/img/vid-podstavki-dla-obuvi-dla-skladyvania-pary-obuvi.jpg"
-						alt=""
-					/>
-				</div>
-				<div class="container">
-					<div class="landing-page-title">
-						<h1
-							data-aos="fade-right"
-							data-aos-offset="300"
-							data-aos-easing="ease-in-sine"
-						>
-							Безопасная химчистка и реставрация обуви, сумок от 2600 рублей с
-							доставкой на дом
-						</h1>
+			<section class="services">
+				<h2 class="services-title">Услуги</h2>
+				<div class="services-grid">
+					<div class="column column-left">
+						<div class="services-list_item">
+							<div class="services-list_item_inner"></div>
+							<div class="services-list_item_title">Химчистка обуви</div>
+							<div class="services-list_item_frame">
+								<img
+									src="assets/img/shot-elegant-beautiful-leather-heels-isolated-white.png"
+									class="popular-service__image"
+									alt="Химчистка обуви"
+									title="Химчистка обуви"
+								/>
+							</div>
+							<div class="services-list_item_price">
+								<div class="services-list_item_cost">стоимость от</div>
+								<div class="services-list_item_value">
+									890 <span class="rub">₽</span>
+								</div>
+							</div>
+							<div class="green_more">
+								<svg
+									width="7"
+									height="10"
+									viewBox="0 0 7 10"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path d="M1 1L5 5L1 9" stroke="white" stroke-width="2"></path>
+								</svg>
+							</div>
+							<a
+								href="/services/dry_cleaning/casual/"
+								class="popular-service__link"
+							></a>
+						</div>
+						<div class="services-list_item">
+							<div class="services-list_item_inner"></div>
+							<div class="services-list_item_title">Химчистка обуви</div>
+							<div class="services-list_item_frame">
+								<img
+									src="assets/img/shot-elegant-beautiful-leather-heels-isolated-white.png"
+									class="popular-service__image"
+									alt="Химчистка обуви"
+									title="Химчистка обуви"
+								/>
+							</div>
+							<div class="services-list_item_price">
+								<div class="services-list_item_cost">стоимость от</div>
+								<div class="services-list_item_value">
+									890 <span class="rub">₽</span>
+								</div>
+							</div>
+							<div class="green_more">
+								<svg
+									width="7"
+									height="10"
+									viewBox="0 0 7 10"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path d="M1 1L5 5L1 9" stroke="white" stroke-width="2"></path>
+								</svg>
+							</div>
+							<a
+								href="/services/dry_cleaning/casual/"
+								class="popular-service__link"
+							></a>
+						</div>
 					</div>
-					<ul
-						data-aos="fade-left"
-						data-aos-offset="300"
-						data-aos-easing="ease-in-sine"
-						class="landing-page-text"
-					>
-						<li>оперативные забор/доставка</li>
-						<li>опытные мастера и экологичные материалы</li>
-						<li>гарантия качества</li>
-					</ul>
-					<div
-						class="landing-page-button"
-						data-aos="fade-right"
-						data-aos-offset="300"
-						data-aos-easing="ease-in-sine"
-					>
-						<button>Вызвать курьера</button>
+
+					<div class="column column-center">
+						<div class="services-list_item tall-card">
+							<div class="services-list_item_inner"></div>
+							<div class="services-list_item_title">Химчистка обуви</div>
+							<div class="services-list_item_frame">
+								<img
+									src="assets/img/shot-elegant-beautiful-leather-heels-isolated-white.png"
+									class="popular-service__image"
+									alt="Химчистка обуви"
+									title="Химчистка обуви"
+								/>
+							</div>
+							<div class="services-list_item_price">
+								<div class="services-list_item_cost">стоимость от</div>
+								<div class="services-list_item_value">
+									890 <span class="rub">₽</span>
+								</div>
+							</div>
+							<div class="green_more">
+								<svg
+									width="7"
+									height="10"
+									viewBox="0 0 7 10"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path d="M1 1L5 5L1 9" stroke="white" stroke-width="2"></path>
+								</svg>
+							</div>
+							<a
+								href="/services/dry_cleaning/casual/"
+								class="popular-service__link"
+							></a>
+						</div>
 					</div>
-					<div class="landing-page-arrow"></div>
+
+					<div class="column column-right">
+						<div class="services-list_item">
+							<div class="services-list_item_inner"></div>
+							<div class="services-list_item_title">Химчистка обуви</div>
+							<div class="services-list_item_frame">
+								<img
+									src="assets/img/shot-elegant-beautiful-leather-heels-isolated-white.png"
+									class="popular-service__image"
+									alt="Химчистка обуви"
+									title="Химчистка обуви"
+								/>
+							</div>
+							<div class="services-list_item_price">
+								<div class="services-list_item_cost">стоимость от</div>
+								<div class="services-list_item_value">
+									890 <span class="rub">₽</span>
+								</div>
+							</div>
+							<div class="green_more">
+								<svg
+									width="7"
+									height="10"
+									viewBox="0 0 7 10"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path d="M1 1L5 5L1 9" stroke="white" stroke-width="2"></path>
+								</svg>
+							</div>
+							<a
+								href="/services/dry_cleaning/casual/"
+								class="popular-service__link"
+							></a>
+						</div>
+						<div class="services-list_item">
+							<div class="services-list_item_inner"></div>
+							<div class="services-list_item_title">Химчистка обуви</div>
+							<div class="services-list_item_frame">
+								<img
+									src="assets/img/shot-elegant-beautiful-leather-heels-isolated-white.png"
+									class="popular-service__image"
+									alt="Химчистка обуви"
+									title="Химчистка обуви"
+								/>
+							</div>
+							<div class="services-list_item_price">
+								<div class="services-list_item_cost">стоимость от</div>
+								<div class="services-list_item_value">
+									890 <span class="rub">₽</span>
+								</div>
+							</div>
+							<div class="green_more">
+								<svg
+									width="7"
+									height="10"
+									viewBox="0 0 7 10"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path d="M1 1L5 5L1 9" stroke="white" stroke-width="2"></path>
+								</svg>
+							</div>
+							<a
+								href="/services/dry_cleaning/casual/"
+								class="popular-service__link"
+							></a>
+						</div>
+					</div>
 				</div>
 			</section>
-			<section class="before-after-slider" id="before-after">
-				<h2
-					data-aos="fade-left"
-					data-aos-offset="300"
-					data-aos-easing="ease-in-sine"
-				>
-					До/После
-				</h2>
-				<div
-					class="sl-container"
-					data-aos="fade-right"
-					data-aos-offset="300"
-					data-aos-easing="ease-in-sine"
-				>
-					<div class="view view-after">
-						<img src="assets/img/fendi-sumka-restavracziya (2).jpg" />
-					</div>
-					<div class="view view-before">
-						<img src="assets/img/fendi-sumka-restavracziya-posle (2).jpg" />
-					</div>
-					<div class="dragme">
-						<div class="dr-circle">
-							<i class="fa fa-arrows-h" aria-hidden="true"></i>
+			<section class="contact-form">
+				<div class="form-container">
+					<h2>Заказать химчистку с доставкой</h2>
+					<form>
+						<div class="form-wrapper">
+							<input type="text" name="name" placeholder="Ваше имя" required />
+							<input
+								type="tel"
+								id="phone"
+								name="phone"
+								placeholder="Телефон"
+								required
+							/>
+							<button type="submit">Отправить</button>
 						</div>
-					</div>
+
+						<div class="checkbox">
+							<label class="custom-checkbox">
+								<input type="checkbox" required />
+								<span class="checkmark"></span>
+								Отправляя заявку, вы даете свое согласие на обработку
+								персональных данных
+							</label>
+						</div>
+					</form>
 				</div>
 			</section>
-			<section class="best-service">
-				<h1
-					data-aos="fade-left"
-					data-aos-offset="300"
-					data-aos-easing="ease-in-sine"
-				>
-					Почему SHOES SPA лучший сервис?
-				</h1>
-				<div class="best-service-block">
-					<div class="best-service-block-left">
-						<div
-							class="best-service-block-left-item"
-							data-aos="fade-right"
-							data-aos-offset="300"
-							data-aos-easing="ease-in-sine"
-						>
-							<i class="fa-solid fa-thumbs-up"></i>
-							<div class="best-service-block-left-item_text">
-								<h4>Безупречный результат</h4>
-								<p>
-									Shoes Spa — это новый взгляд на уход за обувью, где каждая
-									деталь имеет значение.Наша философия: <br />
-									<strong
-										>Безупречный результат, Комфорт клиента,
-										Долговечность</strong
-									>
-								</p>
-							</div>
-						</div>
-						<div
-							class="best-service-block-left-item"
-							data-aos="fade-left"
-							data-aos-offset="300"
-							data-aos-easing="ease-in-sine"
-						>
-							<i class="fa-solid fa-star"></i>
-							<div class="best-service-block-left-item_text">
-								<h4>Профессиональный уход</h4>
-								<p>
-									В мире, где каждая деталь имеет <strong>значение</strong>, мы
-									создали пространство для тех, кто ценит безупречность. Наша
-									команда — <strong>это мастера</strong>, чей опыт измеряется не
-									годами, а <strong>тысячами</strong> восстановленных пар обуви.
-									<br />
-									Доверьте свою обувь <strong>тем</strong>, кто действительно
-									понимает в ней толк. <strong>Shoes Spa</strong> — где
-									профессионализм встречается с заботой.
-								</p>
-							</div>
-						</div>
-						<div
-							class="best-service-block-left-item"
-							data-aos="fade-right"
-							data-aos-offset="300"
-							data-aos-easing="ease-in-sine"
-						>
-							<i class="fa-solid fa-clock"></i>
-							<div class="best-service-block-left-item_text">
-								<h4>Удобно</h4>
-								<p>
-									Для вашего удобства мы организовали
-									<strong>курьерскую доставку</strong>, которая сделает процесс
-									ухода за обувью максимально <strong>комфортным</strong> и
-									<strong>беззаботным</strong>.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div
-						class="best-service-block-right"
-						data-aos="fade-right"
-						data-aos-offset="300"
-						data-aos-easing="ease-in-sine"
-					>
-						<img
-							src="assets/img/vid-podstavki-dla-obuvi-dla-skladyvania-pary-obuvi (1).jpg"
-							alt=""
-						/>
-					</div>
+			<section class="special-offers">
+				<div class="special-offers-title">
+					<h2>Специальные предложения</h2>
+					<a href="#">Посмотреть все</a>
 				</div>
-			</section>
-			<section class="services" id="services">
-				<h1
-					data-aos="fade-left"
-					data-aos-offset="300"
-					data-aos-easing="ease-in-sine"
-				>
-					Наши услуги
-				</h1>
-				<h3
-					data-aos="fade-right"
-					data-aos-offset="300"
-					data-aos-easing="ease-in-sine"
-				>
-					Мы приложим все усилия, чтобы вернуть вашим вещам безупречный вид и
-					гарантируем, что результат нашей работы вас искренне порадует.
-				</h3>
-				<div class="services-cards">
-					<a
-						href="#"
-						class="services-card"
-						data-aos="fade-left"
-						data-aos-offset="300"
-						data-aos-easing="ease-in-sine"
-					>
-						<img src="assets/img/modnaa-obuv.jpg" alt="" />
-						<h3>Химчистка обуви и сумок</h3>
-						<p>Цена от 2600 руб.</p>
-					</a>
-					<a
-						href="#"
-						class="services-card"
-						data-aos="fade-right"
-						data-aos-offset="300"
-						data-aos-easing="ease-in-sine"
-					>
-						<img src="assets/img/kozanye-botinki.jpg" alt="" />
-						<h3>Реставрация обуви и сумок</h3>
-						<p>Цена от 900 руб.</p>
-					</a>
-					<a
-						href="#"
-						class="services-card"
-						data-aos="fade-left"
-						data-aos-offset="300"
-						data-aos-easing="ease-in-sine"
-					>
-						<img src="assets/img/kozanye-sapogi-i-tufli.jpg" alt="" />
-						<h3>Ремонт обуви и сумок</h3>
-						<p>Цена от 1000 руб.</p>
-					</a>
+				<div class="wrapper">
+					<div class="cards-container">
+						<div class="cards-row">
+							<!-- Card 1 -->
+							<a href="#" class="wide">
+								<div class="special-offer-card wide">
+									<div class="hit-label">HIT</div>
+									<div class="text-container">
+										<div class="discount-text">10%</div>
+										<div class="description">
+											Закажите любую услугу впервые и получите 10% скидку на
+											первый заказ
+										</div>
+									</div>
+									<div class="image-container">
+										<div class="image-placeholder">
+											<img
+												src="assets/img/3d-rendering-podarocnoi-korobki-s-lentocnym-podarocnym-paketom-Photoroom.png"
+												alt="Bedding"
+											/>
+										</div>
+									</div>
+									<div class="button">
+										<svg
+											width="7"
+											height="10"
+											viewBox="0 0 7 10"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												d="M1 1L5 5L1 9"
+												stroke="black"
+												stroke-width="2"
+											></path>
+										</svg>
+									</div>
+								</div>
+							</a>
+							<!-- Card 2 -->
+							<a href="#" class="medium">
+								<div class="special-offer-card medium">
+									<div class="hit-label">NEW</div>
+									<div class="text-container">
+										<div class="discount-text">20%</div>
+										<div class="description">
+											Скидка 20% при сдаче трёх и более пар обуви
+										</div>
+									</div>
+									<div class="image-container">
+										<div class="image-placeholder">
+											<img
+												src="assets/img/3d-rendering-podarocnoi-korobki-s-lentocnym-podarocnym-paketom-Photoroom.png"
+												alt="Coins"
+											/>
+										</div>
+									</div>
+									<div class="button">
+										<svg
+											width="7"
+											height="10"
+											viewBox="0 0 7 10"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												d="M1 1L5 5L1 9"
+												stroke="black"
+												stroke-width="2"
+											></path>
+										</svg>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="cards-row">
+							<!-- Card 3 -->
+							<a href="#" class="ultra-wide">
+								<div class="special-offer-card ultra-wide">
+									<div class="hit-label">NEW</div>
+									<div class="text-container">
+										<div class="discount-text">0 ₽</div>
+										<div class="description">Всегда бесплатная доставка</div>
+									</div>
+									<div class="image-container">
+										<div class="image-placeholder">
+											<img
+												src="assets/img/3d-rendering-podarocnoi-korobki-s-lentocnym-podarocnym-paketom-Photoroom.png"
+												alt="Shopping Bag"
+											/>
+										</div>
+									</div>
+									<div class="button">
+										<svg
+											width="7"
+											height="10"
+											viewBox="0 0 7 10"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												d="M1 1L5 5L1 9"
+												stroke="black"
+												stroke-width="2"
+											></path>
+										</svg>
+									</div>
+								</div>
+							</a>
+							<!-- Card 4 -->
+							<a href="#" class="narrow">
+								<div class="special-offer-card narrow">
+									<div class="hit-label">HIT</div>
+									<div class="text-container">
+										<div class="discount-text">10%</div>
+										<div class="description">
+											При сдаче двух пар обуви вы получаете скидку 10%
+										</div>
+									</div>
+									<div class="image-container">
+										<div class="image-placeholder">
+											<img
+												src="assets/img/3d-rendering-podarocnoi-korobki-s-lentocnym-podarocnym-paketom-Photoroom.png"
+												alt="Shirt"
+											/>
+										</div>
+									</div>
+									<div class="button">
+										<svg
+											width="7"
+											height="10"
+											viewBox="0 0 7 10"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												d="M1 1L5 5L1 9"
+												stroke="black"
+												stroke-width="2"
+											></path>
+										</svg>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
 				</div>
 			</section>
 		</main>
-		<footer>
-			<div class="footer-text">
-				<ul>
-					<li>
-						• Наименование: ИНДИВИДУАЛЬНЫЙ ПРЕДПРИНИМАТЕЛЬ ЯКУБОВСКИЙ ЭДУАРД
-						ВЯЧЕСЛАВОВИЧ
-					</li>
-					<li>• ИНН: 502415180703</li>
-					<li>• ОГРНИП: 321508100475012</li>
-					<li>
-						• Юридический адрес: 142608, РОССИЯ, МОСКОВСКАЯ ОБЛ, Г
-						ОРЕХОВО-ЗУЕВО, УЛ КОЗЛОВА, Д 23А, КВ 75
-					</li>
-					<li>
-						• Фактический адрес: г. Санкт-Петербург, Большой Проспект
-						Петроградской стороны 33АВ
-					</li>
-					<li>
-						• Контактный email:
-						<a href="mailto:yakubovskiy01@gmail.com">yakubovskiy01@gmail.com</a>
-					</li>
-					<li>• Телефон: +7 (925) 435-01-01</li>
-				</ul>
-				<p>© SHOES SPA. Информация на сайте не является публичной офертой.</p>
-			</div>
-		</footer>
+		<footer></footer>
 		<script
 			src="https://kit.fontawesome.com/533f60afef.js"
 			crossorigin="anonymous"
 		></script>
-		<script
-			src="https://code.jquery.com/jquery-3.7.1.min.js"
-			integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"
-			integrity="sha256-9zljDKpE/mQxmaR4V2cGVaQ7arF3CcXxarvgr7Sj8Uc="
-			crossorigin="anonymous"
-		></script>
-		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/5.0.8/jquery.inputmask.min.js"></script>
 		<script>
-			AOS.init()
+			$(document).ready(function () {
+				$('#phone').inputmask('+7(999)999-99-99')
+			})
 		</script>
 		<script src="assets/js/main.js"></script>
 	</body>
