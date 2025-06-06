@@ -26,3 +26,13 @@ cards.forEach(card => {
 		image.style.transform = 'translate(0, 0)'
 	})
 })
+const bleach = document.querySelector('.from-bleach')
+const img = document.querySelector('.from-bleach-card img')
+
+img.addEventListener('mouseenter', () => {
+	bleach.classList.add('bleach-active')
+})
+
+img.addEventListener('mouseleave', () => {
+	bleach.classList.remove('bleach-active')
+})
